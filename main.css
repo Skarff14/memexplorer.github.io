@@ -1,0 +1,8 @@
+@font-face {
+    font-family: wiiFont;
+    src: url('continuum-bold.ttf');
+}
+
+h1 { 
+    font-family: 'wiiFont', sans-serif; 
+}
