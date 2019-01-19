@@ -3,6 +3,15 @@
     src: url('continuum-bold.ttf');
 }
 
+@font-face {
+    font-family: roboto;
+    src: url('Roboto-Thin.ttf');
+}
+
 h1 { 
     font-family: 'wiiFont', sans-serif; 
+}
+
+p {
+    font-family: 'roboto', sans-serif;
 }
