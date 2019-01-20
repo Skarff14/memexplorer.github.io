@@ -1,13 +1,3 @@
-@font-face {
-    font-family: wiiFont;
-    src: url('continuum-bold.ttf');
-}
-
-@font-face {
-    font-family: roboto;
-    src: url('Roboto-Thin.ttf');
-}
-
-body { 
-    font-family: 'wiiFont', sans-serif !important; 
+h1 { 
+    font-family: 'Dosis', sans-serif !important;
 }
