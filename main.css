@@ -1,3 +1,8 @@
-h1 { 
-    font-family: 'Dosis', sans-serif !important;
+body { 
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.navText {
+    font-size: 20px;
+    color: darkgrey;
 }
