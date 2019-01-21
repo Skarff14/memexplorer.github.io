@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100i,300,400,500" rel="stylesheet">
     <link rel="icon" type="image/png" href="https://cdn.discordapp.com/avatars/530766901282996224/66be6396b5dbc7f1db1d1e3cb3058f99.png" />
-    <title>Wii - Home</title>
+    <title>Wii - Commands</title>
   </head>
   <body>
     <div class="container-fluid">
@@ -26,11 +26,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="commands.html">Commands</a>
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="commands.html">Commands <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="faq.html">Faq</a>
@@ -48,18 +48,62 @@
             </nav>
         </div>
     </div>
-    
-    <div class="card text-white bg-info mb-3 card-div">
-        <!--<center><div class="card-header"></div></center>-->
-        <div class="card-body">
-            <center><h5 class="card-title">Wii</h5></center>
-            <center><p class="card-text">The first and only bot that lets you upload memes, and view memes, directly from Discord.</p></center>
-            <center><div class="button-text" style="margin-top: 3%;"></div>
-                <button type="button" class="btn btn-outline-light btn-lg" style="margin-right: 1%;">Add Wii</button>
-                <button type="button" class="btn btn-outline-light btn-lg" style="margin-left: 1%;">Support</button>
-            </div></center>
+
+    <center><h2 style="margin-top: 2%;">Commands</h2></center>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md">       
+                <table class="table table-borderless table-hover table-light" style="border: none; margin-top: 2.5%; margin-bottom: 36%;">
+                    <thead class="thead-light">
+                        <tr>
+                            <th scope="col">Command</th>
+                            <th scope="col">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>wii bio</th>
+                            <td>set your bio</td>
+                        </tr>
+                        <tr>
+                            <th>wii help</th>
+                            <td>sends you a list of the bot's commands</td>
+                        </tr>
+                        <tr>
+                        <th>wii invite</th>
+                            <td>sends you an invite link for the bot</td>
+                        </tr>
+                        <th>wii leaderboard</th>
+                            <td>displays the users with the most Wii Points</td>
+                        </tr>
+                        <th>wii meme</th>
+                            <td>sends a meme</td>
+                        </tr>
+                        <tr>
+                        <th>wii ping</th>
+                            <td>sends the bot's ping</td>
+                        </tr>
+                        <tr>
+                        <th>wii popular</th>
+                            <td>displays the posts with the most upvotes</td>
+                        </tr>
+                        <th>wii profile</th>
+                            <td>displays the user's profile</td>
+                        </tr>
+                        <th>wii stats</th>
+                            <td>displays the bot's stats</td>
+                        </tr>
+                        <th>wii upload</th>
+                            <td>upload a meme to the database</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
+    
+
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

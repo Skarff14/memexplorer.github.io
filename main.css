@@ -1,5 +1,7 @@
 body { 
     font-family: 'Roboto', sans-serif !important;
+    /* background-image: url("https://wiki.dolphin-emu.org/images/a/a9/Mii_Channel_Floor_Bug.png");
+    background-position: bottom; */
 }
 
 .nav-text {
@@ -29,4 +31,8 @@ body {
     font-size: 22px;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.table-text {
+    font-family: 'Roboto', sans-serif !important;
 }
