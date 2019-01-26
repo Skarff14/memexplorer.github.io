@@ -22,6 +22,49 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.faq-card {
+    position: absolute;
+    width: 250px;
+    height: 340px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered-one {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+}
+
+.centered-two {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 65%);
+}
+
+.faq-title {
+    position: absolute;
+    top: 8%;
+    left: 40%;
+    margin: auto;
+}
+
+.faq-desc{
+    position: absolute;
+    top: 15%;
+    margin: auto;
+}
+
+.dev-title{
+    position: absolute;
+    top: 28.5%;
+    left: 42.5%;
+    margin: auto;
+}
+
 .card-title {
     font-size: 40px;
     margin-top: 7.5%;
@@ -35,4 +78,32 @@ body {
 
 .table-text {
     font-family: 'Roboto', sans-serif !important;
+}
+
+.blueColor {
+    background-color: #30b6ef !important;
+}
+
+.cardColor {
+    background-color: #30b6ef !important;
+}
+
+.tableColor {
+    background-color: #30b6ef !important;
+}
+
+.blueColor:hover {
+    background-color: #11a1df !important;
+} 
+
+.bg-info {
+    background-color: #30b6ef !important;
+}
+
+.th {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.td {
+    font-family: Arial, Helvetica, sans-serif !important;
 }

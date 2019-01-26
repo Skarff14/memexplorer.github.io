@@ -12,14 +12,15 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100i,300,400,500" rel="stylesheet">
     <link rel="icon" type="image/png" href="https://cdn.discordapp.com/avatars/530766901282996224/66be6396b5dbc7f1db1d1e3cb3058f99.png" />
-    <title>Wii - Commands</title>
+    <title>Memexplorer</title>
   </head>
   <body>
     <div class="container-fluid">
         <div class="nav-text">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#">
-                    <img src="https://cdn.discordapp.com/attachments/533779992828575767/536360195031433256/https3A2F2Fupload.png" width="60" height="30" class="d-inline-block align-top" alt="">
+                    <img src="explorer.png" width="50" height="50" alt="">
+                    <span class="navbar-brand mb-0 h1" style="font-size: 25px; margin-left: 2%; color:#30b6ef; margin-right: -0.5%; margin-top: 1%;">Memexplorer</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -41,60 +42,73 @@
                     </ul>
                     <span class="navbar-text">
                         <div class="button-text"></div>
-                            <button type="button" class="btn btn-info btn-lg">Add Wii</button>
+                            <button type="button" class="btn btn-info blueColor btn-lg">Add Memexplorer</button>
                         </div>
                     </span>
                 </div>
             </nav>
         </div>
     </div>
+    
+    <div id="particles-js"></div>
+    <center><h1 style="margin-top: 2%; position: absolute; top: 9%; left: 45%;" valign="middle" align="center">Commands</h1></center>
 
-    <center><h2 style="margin-top: 2%;">Commands</h2></center>
-
-    <div class="container">
+    <div class="container" style="position: absolute; top: 20%; right: 20%;">
         <div class="row">
             <div class="col-md">       
                 <table class="table table-borderless table-hover table-light" style="border: none; margin-top: 2.5%; margin-bottom: 36%;">
-                    <thead class="thead-light">
-                        <tr>
-                            <th scope="col">Command</th>
-                            <th scope="col">Description</th>
+                    <thead class="thead-dark">
+                        <tr style="font-family: Arial, Helvetica, sans-serif !important;">
+                            <th scope="col" class="bg-primary">Command</th>
+                            <th scope="col" class="bg-primary">Description</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody style="font-family: Arial, Helvetica, sans-serif !important;">
                         <tr>
-                            <th>wii bio</th>
+                            <td>wii bio</td>
                             <td>set your bio</td>
                         </tr>
                         <tr>
-                            <th>wii help</th>
-                            <td>sends you a list of the bot's commands</td>
+                            <td>wii help</td>
+                            <td>sends you a list of tde bot's commands</td>
                         </tr>
                         <tr>
-                        <th>wii invite</th>
+                        <td>wii ignore</td>
+                            <td>make the bot ignore commands from a specific channel</td>
+                        </tr>
+                        <tr>
+                        <td>wii invite</td>
                             <td>sends you an invite link for the bot</td>
                         </tr>
-                        <th>wii leaderboard</th>
+                        <td>wii leaderboard</td>
                             <td>displays the users with the most Wii Points</td>
                         </tr>
-                        <th>wii meme</th>
+                        <tr>
+                        <td>wii listen</td>
+                            <td>bot will continue responding to commands from a specific channel</td>
+                        </tr>
+                        <tr>
+                        <td>wii meme</td>
                             <td>sends a meme</td>
                         </tr>
                         <tr>
-                        <th>wii ping</th>
+                        <td>wii ping</td>
                             <td>sends the bot's ping</td>
                         </tr>
                         <tr>
-                        <th>wii popular</th>
+                        <td>wii popular</td>
                             <td>displays the posts with the most upvotes</td>
                         </tr>
-                        <th>wii profile</th>
+                        <td>wii profile</td>
                             <td>displays the user's profile</td>
                         </tr>
-                        <th>wii stats</th>
+                        <td>wii report</td>
+                            <td>report a post for not following the guidelines</td>
+                        </tr>
+                        <td>wii stats</td>
                             <td>displays the bot's stats</td>
                         </tr>
-                        <th>wii upload</th>
+                        <td>wii upload</td>
                             <td>upload a meme to the database</td>
                         </tr>
                     </tbody>
@@ -103,12 +117,14 @@
         </div>
     </div>
     
-
-    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+    <script src="particles.min.js"></script>
+	<script>
+		particlesJS("particles-js", {"particles":{"number":{"value":10,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"image","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"https://cdn.discordapp.com/attachments/533780622502526987/538769886147510342/Vaporwave_internet_explorer_transparent.png","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":20,"random":false,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":1.5,"direction":"none","random":false,"straight":false,"out_mode":"bounce","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":false,"mode":"bubble"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
+	</script>
+ </body>
 </html>
